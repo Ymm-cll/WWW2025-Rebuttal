@@ -94,7 +94,7 @@ Result-oriented dynamic metrics reflect the actual impact on the MAS when under 
 
 We treat both bias and harmful-info safeguards as considerations for aggregated safety as follows:
 
-- **From a phenomenological perspective**, the two are similar, as both involve attacker nodes being corrected by neighboring nodes.
+- **From a phenomenological perspective**, the two are similar, as both involve attacker nodes being corrected by neighboring nodes (`Figure 5 and 6` in manuscript).
 - **From the perspective of the causes of this phenomenon**, both arise because the safety of LLMs makes MAS more secure against bias and harmful information.
 
 
