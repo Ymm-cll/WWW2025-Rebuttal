@@ -28,6 +28,7 @@ Topology has an impact on the other two types of attacks. We will clarify your c
 | Binary Tree        | 4.85  | 11.65 | 9.71  | 11.65 | 11.65 | 11.65 | 10.68 | 12.62 | 12.62 | 12.62  |
 | Complete Graph     | 2.91  | 9.71  | 16.5  | 19.42 | 20.39 | 22.33 | 23.30 | 23.30 | 23.30 | 23.33  |
 
+From the table above, we can conclude that different topologies affect the potential for attacker node to be rectified differently.
 
 
 
