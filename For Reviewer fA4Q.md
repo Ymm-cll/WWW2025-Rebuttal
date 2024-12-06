@@ -27,14 +27,13 @@ We sincerely appreciate your valuable feedback. In response, we would like to of
 
 - **Additional Experiments:** We provide more experiments on complex topologies in `Table B`.
 
+*Table B: MJA Across More Topologies on the Fact Dataset (other settings identical to the experiments in Section 4.2)*
 
-*Table B: *
-
-|      |      |      |      |      |      |      |      |      |      |      |
-| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-|      |      |      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |      |      |
+| Topology/Iteration  | Turn1 | Turn2 | Turn3 | Turn4 | Turn5 | Turn6 | Turn7 | Turn8 | Turn9 | Turn10 |
+| ------------------- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ------ |
+| Layer (N=6)         | 94.90 | 92.55 | 90.33 | 89.28 | 88.24 | 87.84 | 86.80 | 85.88 | 85.75 | 85.23  |
+| 2-Center Star (N=6) | 96.47 | 90.59 | 84.71 | 84.71 | 84.71 | 85.88 | 85.88 | 83.53 | 81.18 | 81.18  |
+| Grid  (N=9)         | 93.60 | 92.26 | 88.99 | 88.10 | 88.39 | 87.65 | 87.20 | 87.05 | 85.71 | 85.57  |
 
 
 
