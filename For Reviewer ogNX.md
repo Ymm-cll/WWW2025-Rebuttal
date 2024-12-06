@@ -9,7 +9,7 @@ We would like to express our heartfelt gratitude for your insightful comments an
 
 *Table A: MJA Across More Topologies on the Fact Dataset (other settings identical to the experiments in Section 4.2)*
 
-| Fact                | Turn1 | Turn2 | Turn3 | Turn4 | Turn5 | Turn6 | Turn7 | Turn8 | Turn9 | Turn10 |
+| Topology/Iteration  | Turn1 | Turn2 | Turn3 | Turn4 | Turn5 | Turn6 | Turn7 | Turn8 | Turn9 | Turn10 |
 | ------------------- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ------ |
 | Layer (N=6)         | 94.90 | 92.55 | 90.33 | 89.28 | 88.24 | 87.84 | 86.80 | 85.88 | 85.75 | 85.23  |
 | 2-Center Star (N=6) | 96.47 | 90.59 | 84.71 | 84.71 | 84.71 | 85.88 | 85.88 | 83.53 | 81.18 | 81.18  |
