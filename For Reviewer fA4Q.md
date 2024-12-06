@@ -35,6 +35,7 @@ We sincerely appreciate your valuable feedback. In response, we would like to of
 | 2-Center Star (N=6) | 96.47 | 90.59 | 84.71 | 84.71 | 84.71 | 85.88 | 85.88 | 83.53 | 81.18 | 81.18  |
 | Grid  (N=9)         | 93.60 | 92.26 | 88.99 | 88.10 | 88.39 | 87.65 | 87.20 | 87.05 | 85.71 | 85.57  |
 
+From the results above, we find that the newly-tested topologies aligns with our findings in the manuscript.
 
 
 
