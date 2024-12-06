@@ -32,6 +32,8 @@ From the table above, we can conclude that different topologies affect the poten
 
 
 
+
+
 > **Weakness3** *One wonders, are we getting to the heart of the matter using this topological perspective or is it the case that safety within each LLM agent (like GPT3.5-turbo, or GPT-4o-mini) has a dominant role to play.* 
 
 The two aspects you mentioned are both essential for the safety issues in MAS:
