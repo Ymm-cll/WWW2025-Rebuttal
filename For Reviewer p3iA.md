@@ -1,6 +1,6 @@
 Thank you very much for your valuable comments! Below, we respond to your comments point by point. 
 
-> **Weakness1 & Question3** *RelCom is not motivated ... convergence protperties. **&** Why is RelCom the best or ...  considered and compared to RelCom.*
+> **Weakness1 & Question3** *RelCom is not motivated other than that it has strong convergence protperties. **&** Why is RelCom the best or most effective mechanism for this purpose and what other mechanisms were considered and compared to RelCom.*
 
 The motivation for proposing RelCom is as follows:
 
@@ -12,9 +12,7 @@ The motivation for proposing RelCom is as follows:
 
 
 
-
-
-> **Weakness2 & Weakness8 & Question1** *The three types of attacks ...threat from a topological perspective.* **&** *Finally, in 4.5 we see in the short ... not the other two types studied in the paper.* **&** *What role is topology ... Is this correct?*
+> **Weakness2 & Weakness8 & Question1** *The three types of attacks are misinformation injection, bias, and harmful response elicitation, however, only misinformation injection seem to be the only relevant threat from a topological perspective. What role is topology playing in the bias and harmful response attacks? **&** It does not seem to have any role. Is this correct? **&** Finally, in 4.5 we see in the short discussion that topology is a key dimension to evaluate safety, however, this only applies to misinformation attacks, and not the other two types studied in the paper.*
 
 Topology has an impact on the other two types of attacks. We will clarify your concerns from the following two aspects:
 
@@ -33,7 +31,7 @@ Topology has an impact on the other two types of attacks. We will clarify your c
 
 
 
-> **Weakness3** *One wonders, are we ... has a dominant role to play.* 
+> **Weakness3** *One wonders, are we getting to the heart of the matter using this topological perspective or is it the case that safety within each LLM agent (like GPT3.5-turbo, or GPT-4o-mini) has a dominant role to play.* 
 
 The two aspects you mentioned are both essential for the safety issues in MAS:
 
@@ -66,31 +64,29 @@ In `Table B and C`, we present additional experiments results showing that our f
 
 
 
-> **Weakness4** *RQ1-obs2. states that higher connectivity results ... better when all nodes are connected.*
+> **Weakness4** *RQ1-obs2. states that higher connectivity results in higher risk of misinformation attacks. However, this does not seem related to LLMs specifically, as this would be the case in most networked systems (like sensor networks) where spurrious readings or measurements can spread around the network better when all nodes are connected.*
 
 This conclusion is indeed common in other fields, but we are the first to discover and reveal that high connectivity in LLM-based MAS safety scenarios is actually a double-edged sword:
 
 - **For Misinformation:** The contribution of RQ1-Obs2 lies in systematically and rigorously reporting and validating the correctness of this conclusion in the context of misinformation attacks on LLM-based MAS.
 
-- **For Bias and Harmful information:** RQ2 demonstrates that topologies with higher connectivity lead to higher potential to correct attacker nodes which may not be a common observation, as demonstrate in `Table A`:
+- **For Bias and Harmful information:** RQ2 demonstrates that topologies with higher connectivity lead to higher potential to correct attacker nodes which may not be a common observation, as demonstrate in `Table A`.
 
 
 
-
-
-> **Weakness5** *RQ1-obs3 states that more complex ... seems to be contradictory.*
+> **Weakness5** *RQ1-obs3 states that more complex tasks are resiliant to misinformation, but then goes on to say that "Agent hallucination" can spread misinformation to the enture network, which seems to be contradictory.*
 
 We sincerely apologize for the confusion caused by our wording. In fact, the two points are not contradictory: agent hallucination does refer to the propagation of misinformation from a single node to the entire network, but what is meant by "more safe" in Obs3 is that the MAS experiences less malicious influence when handling complex problems, not that misinformation will not propagate.
 
 
 
->**Weakness6** *Obs.5 depends on the particular ... eval is always superior to static.*
+>**Weakness6** *Obs.5 depends on the particular metrics used for static evaluation and the results may be overturned if better static metrics were used. At best, the support is weak and more evaluation is need to support that dynamic eval is always superior to static.*
 
 Result-oriented dynamic metrics reflect the actual impact on the MAS when under attack. On the other hand, effective static metrics require careful design and may not always capture the safety of the MAS in dynamic, specific scenarios. We do not intend to undermine static metrics, but rather point out that the safety of MAS needs to be dynamically evaluated. More effective static metrics do not contradict dynamic evaluation.
 
 
 
->**Weakness7** *In section 4.3, the role of safe-guards ... straight-away calssified as "aggregation safety".*
+>**Weakness7** *In section 4.3, the role of safe-guards against bias and harmful responses is not examined in particular and it is straight-away calssified as "aggregation safety".*
 
 We treat both bias and harmful-info safeguards as considerations for aggregated safety as follows:
 
@@ -98,6 +94,8 @@ We treat both bias and harmful-info safeguards as considerations for aggregated 
 - **From the perspective of the causes of this phenomenon**, both arise because the safety of LLMs makes MAS more secure against bias and harmful information.
 
 
+
+> **Weakness9** *However the technical tools are simplistic and may not be the most apt for this purposes.*
 
 NetSafe is actually a very comprehensive framework that addresses issues not considered in previous work. The specifics are as follows:
 
@@ -111,9 +109,7 @@ NetSafe is actually a very comprehensive framework that addresses issues not con
 
 
 
-
-
-> **Weakness10** *There needs much more ... more effective metrics.*
+> **Weakness10** *There needs much more supporting evidence through a more thourough examination with attention of each type of attack and perhaps more effective metrics.*
 
 Thank you for your suggestions. We will include more attack methods and metrics in our future work. Currently, in the paper, we indeed use two different metrics:
 
@@ -122,7 +118,7 @@ Thank you for your suggestions. We will include more attack methods and metrics 
 
 
 
-> **Question2** *What is the role of of the static metric (E_sta)? ... or how it is calcualted.*
+> **Question2** *What is the role of of the static metric (E_sta)? I am not sure it is used in the evalution anywhere or how it is calcualted.*
 
 Thank you for pointing out the issue! We apologize for not clearly expressing the meaning of $E_{sta}$. It is a general definition for all static metrics, rather than a specific metric. The formula of $E_{sta}$ is as follows:
 
