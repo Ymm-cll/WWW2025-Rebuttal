@@ -8,7 +8,7 @@ Sorry for that we may not make it clear. We actually investigated the impact of 
 
 - **"Aggregation Safety" Phenomenon 2:** At the same time, we observed that due to interactions between agents, the attacker nodes affected by bias and harmful information attacks have the potential to be corrected, which is discussed in RQ2-Obs1 (in `Section 4.3`). We present the results in the following `Table A`.
 
-*Table A: SAA of attacker node Across Different Topologies on the Bias Dataset*
+*Table A: MJA of attacker node Across Different Topologies on the Bias Dataset*
 
 | Topology/Iteration | Turn1 | Turn2 | Turn3 | Turn4 | Turn5 | Turn6 | Turn7 | Turn8 | Turn9 | Turn10 |
 | ------------------ | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ------ |
